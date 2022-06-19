@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+ background-color: black;
+
+}
+main{
+  background-color: hsl(0, 100%, 74%);
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  margin-top: 30px;
+}
+
+.aside{
+  font-size: 17px;
+  font-weight: 200;
+  color: white;
+  padding: 3cm;
+}
+
+.cage{
+  width: 50%;
+  margin: auto;
+  font: bold;
+  padding-right: 3cm;
+}
+
+.top{
+  background-color: hsl(248, 32%, 49%);
+  padding-left: 1cm;
+  color: white;
+  justify-content: center;
+}
+
+.bottom{
+  background-color: whitesmoke;
+  height: 300px;
+  width: 300px;
+  margin: 5px;
+}
+
+.box{
+  padding: 5%;
+  width: 90%;
+  margin: 3px;
+  outline: none;
+}
+
+#submit{
+  background-color: rgb(23, 223, 23);
+  border: none;
+  outline: none;
+  font-weight: bolder;
+  margin-top: 25px;
+  width: 80%;
+  color: white;
+  border-radius: 8px;
+}
+
+.ant{
+  color: lightsalmon;
+  margin-bottom: 10px;
+}
